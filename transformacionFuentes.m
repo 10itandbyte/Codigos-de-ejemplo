@@ -10,6 +10,14 @@ tensionCn=sqrt(2)*220*sind(2*180*t*f+120);
 
 tensionNb=sqrt(2)*220*sind(2*180*t*f+60);
 
+% figure
+% plot(grados,tensionBn,'r')
+% hold on
+% plot(grados,tensionNb,'k')
+% xlim([0 720])
+
+
+
 %% Calculo de tensiones de linea
 
 tensionAb=tensionAn-tensionBn;
